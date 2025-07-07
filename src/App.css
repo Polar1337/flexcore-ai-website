@@ -126,21 +126,8 @@
 }
 
 
-/* Hide "Made with Manus" branding */
-a[href*="manus"] {
-  display: none !important;
-  visibility: hidden !important;
-}
-
-/* Hide any fixed positioned elements that might be the branding */
-div[style*="position: fixed"][style*="bottom"],
-div[style*="position: fixed"][style*="right"] {
-  display: none !important;
-}
-
-/* Hide elements with specific z-index that might be branding */
-[style*="z-index: 999"],
-[style*="z-index: 9999"] {
+/* Hide "Made with Manus" branding - specific and safe */
+a[href*="manus.space"] {
   display: none !important;
 }
 
