@@ -6,6 +6,9 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPage from './pages/PrivacyPage';
+import ImprintPage from './pages/ImprintPage';
+import TermsPage from './pages/TermsPage';
 import './App.css';
 
 function App() {
@@ -19,10 +22,9 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            {/* Placeholder routes for legal pages */}
-            <Route path="/impressum" element={<div className="pt-16 p-8 text-center"><h1>Impressum</h1><p>Impressum Seite wird noch erstellt.</p></div>} />
-            <Route path="/datenschutz" element={<div className="pt-16 p-8 text-center"><h1>Datenschutz</h1><p>Datenschutz Seite wird noch erstellt.</p></div>} />
-            <Route path="/agb" element={<div className="pt-16 p-8 text-center"><h1>AGB</h1><p>AGB Seite wird noch erstellt.</p></div>} />
+            <Route path="/datenschutz" element={<PrivacyPage />} />
+            <Route path="/impressum" element={<ImprintPage />} />
+            <Route path="/agb" element={<TermsPage />} />
           </Routes>
         </main>
         <Footer />
