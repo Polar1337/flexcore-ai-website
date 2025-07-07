@@ -32,7 +32,7 @@ const Navigation = () => {
             <img 
               src={flexcoreLogo} 
               alt="flexcore.ai Logo" 
-              className="h-8 w-8"
+              className="h-12 w-12"
             />
             <span className="text-xl font-bold text-gray-900">
               {content.company.name}

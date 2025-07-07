@@ -131,3 +131,16 @@ a[href*="manus.space"] {
   display: none !important;
 }
 
+/* Additional rule to hide Made with Manus text */
+*:contains("Made with Manus") {
+  display: none !important;
+}
+
+/* Hide elements with Made with Manus text using CSS */
+a:has-text("Made with Manus"),
+div:has-text("Made with Manus"),
+span:has-text("Made with Manus") {
+  display: none !important;
+  visibility: hidden !important;
+}
+

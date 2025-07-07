@@ -59,8 +59,7 @@ const ServicesSection = () => {
                   
                   <Button 
                     asChild 
-                    variant="outline" 
-                    className="w-full group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all"
+                    className="w-full bg-primary text-white hover:bg-primary/90 border-primary transition-all"
                   >
                     <Link to="/services" className="flex items-center justify-center gap-2">
                       Mehr erfahren
